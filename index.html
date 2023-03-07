@@ -16,15 +16,20 @@
         </div>
     </header>
 
-    <main class="main">
+<main class="main">
         <div class="container">
-            <textarea class="useerString" name="Counter" cols="80" rows="30" placeholder="Type or past your text"></textarea> <br></br>
-            <button class= button type="button"> Count </button> <br> </br>
-            <ul class="result__list">
-                <li class="Letters">Letters:<span class="amountOfLetters"> 0</span></li>
-                <li class="Words">Words:<span class="amountOfWords"> 0</span></li>
-                <li class="Sentences">Sentences:<span class="amountofSentences"> 0</span></li>
-            </ul>  
+            <div class="main__box">
+                <textarea id="textarea" class="user__string" name="Counter" cols="80" rows="30" placeholder="Type or paste your text">Some text here</textarea>
+                <div class="click">
+                    <button class = "button" type="button"> Count </button>
+                </div>
+                <ul class="result__list">
+                    <li class="letters"> Letters: <span id="letters">0</span></li>
+                    <li class="words"> Words: <span id="words">0</span></li>
+                    <li class="spaces"> Spaces: <span id="spaces">0</span></li>
+                    <li class="sentences"> Sentences: <span id="sentences">0</span></li>
+                </ul>
+            </div>
         </div>
     </main>
 
